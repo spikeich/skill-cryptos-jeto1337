@@ -71,9 +71,20 @@ A small sample chosen by people: hints, not rules.
 
 | verdict | when |
 | --- | --- |
-| **VERIFIED** | an official document confirms it, or 4 of 5 reliable, independent sources confirm the same facts (who, what, when, how much), with no denial |
-| **DOUBTFUL** | 3 of 5, facts that do not match, a denial from a reliable source, or under an hour old |
-| **FALSE** | an official denial, or 2 of 5 or fewer |
+| **VERIFIED** | an official document confirms it, or at least 4 reliable sources confirm the same facts (who, what, when, how much) and they are 80 % or more of the reliable sources that cover it, with at least 2 independent newspapers and no denial |
+| **DOUBTFUL** | close but short of that, facts that do not match, a denial from a reliable source, or under an hour old |
+| **FALSE** | an official denial, or 2 confirmations or fewer |
+
+High-impact news (an ETF approval, a ban, a government buying or selling bitcoin)
+needs 6 confirmations, 85 %, from 2 regions or more, with an international
+agency (Reuters, AP, AFP, Bloomberg...) or an official document among them.
+
+Reliable sources are listed by country (26 countries, including the ones where
+most people buy crypto: the US, Russia, the UK, Germany, Ukraine, France,
+Pakistan, Vietnam, Brazil, Nigeria, Indonesia, South Korea, Japan and India),
+and every check is shown grouped by country. State-controlled media (TASS,
+Xinhua, VNA, Antara...) count as that government's voice, never as independent
+confirmation.
 
 Why under an hour is never verified: in January 2024 the SEC's X account was
 hacked and announced bitcoin ETF approval. Many outlets repeated it within

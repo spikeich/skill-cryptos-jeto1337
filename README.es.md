@@ -71,9 +71,21 @@ pista, no son reglas.
 
 | veredicto | cuándo |
 | --- | --- |
-| **VERIFICADA** | un documento oficial la confirma, o 4 de 5 fuentes confiables e independientes confirman los mismos datos (quién, qué, cuándo, cuánto), sin desmentido |
-| **DUDOSA** | 3 de 5, datos que no coinciden, un desmentido de una fuente confiable, o tiene menos de una hora |
-| **FALSA** | desmentido oficial, o 2 de 5 o menos |
+| **VERIFICADA** | un documento oficial la confirma, o al menos 4 fuentes confiables confirman los mismos datos (quién, qué, cuándo, cuánto) y son el 80 % o más de las que hablan del tema, con al menos 2 diarios independientes y sin desmentido |
+| **DUDOSA** | le falta poco para eso, datos que no coinciden, un desmentido de una fuente confiable, o tiene menos de una hora |
+| **FALSA** | desmentido oficial, o 2 confirmaciones o menos |
+
+Las noticias de alto impacto (aprobación de un ETF, una prohibición, un
+gobierno que compra o vende bitcoin) piden 6 confirmaciones, 85 %, de 2
+regiones o más, con una agencia internacional (Reuters, AP, AFP, Bloomberg...)
+o un documento oficial.
+
+Las fuentes confiables están ordenadas por país (26 países, entre ellos donde
+más se compra cripto: EE.UU., Rusia, Reino Unido, Alemania, Ucrania, Francia,
+Pakistán, Vietnam, Brasil, Nigeria, Indonesia, Corea del Sur, Japón e India), y
+cada verificación se muestra agrupada por país. Los medios estatales (TASS,
+Xinhua, VNA, Antara...) cuentan como la voz de su gobierno, nunca como
+confirmación independiente.
 
 Fuentes confiables: diarios y agencias conocidos, voceros oficiales de los
 países y economistas reconocidos. Los medios cripto y los blogs no cuentan. De
