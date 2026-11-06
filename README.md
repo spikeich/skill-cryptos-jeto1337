@@ -94,6 +94,12 @@ minutes, and the price jumped and fell before the denial.
 Each skill reads what the previous one wrote to the `trader/` folder of your
 project.
 
+**Rule: `/crypto-social-info` always goes first.** Before looking for a
+breakout, check the calendar and the day's news, and verify anything big.
+Verified bad news means favour shorts and cut longs; a big event in the next
+hours (CPI, the Fed, a vote, a ruling) means smaller size or wait; doubtful
+news decides nothing until it is verified.
+
 ## Sessions
 
 Crypto never closes, so "the session" follows the stock markets, which is when

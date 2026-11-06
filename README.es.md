@@ -99,6 +99,12 @@ del desmentido.
 Cada skill lee lo que escribió la anterior en la carpeta `trader/` de tu
 proyecto.
 
+**Regla: `/crypto-social-info` va siempre primero.** Antes de buscar una
+ruptura, mirá el calendario y las noticias del día, y verificá lo importante.
+Una noticia mala verificada: preferí cortos y achicá los largos. Un evento
+grande en las próximas horas (inflación, la Fed, una votación, un fallo): menos
+tamaño o esperar. Una noticia dudosa no decide nada hasta que se verifique.
+
 ## Sesiones
 
 Cripto no cierra nunca, así que "la sesión" sigue el horario de las bolsas,
