@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "skill-cryptos-jeto1337",
+  "description": "Skills de cripto de Jeto (@codegeas1337)",
+  "owner": { "name": "Jeto (@codegeas1337)" },
+  "plugins": [
+    {
+      "name": "skill-cryptos-jeto1337",
+      "description": "Escáner de rupturas, máquina del tiempo, tamaño de posición y simulación en papel para cripto.",
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/spikeich/skill-cryptos-jeto1337"
+    }
+  ]
+}
