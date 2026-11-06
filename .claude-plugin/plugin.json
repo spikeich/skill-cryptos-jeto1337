@@ -1,11 +1,23 @@
 {
   "name": "skill-cryptos-jeto1337",
-  "description": "Skills de Claude para trading de cripto: escáner de rupturas de la apertura de Europa y Wall Street, máquina del tiempo con 10.000 simulaciones, tamaño de posición y simulación en papel.",
+  "description": "Eight Claude skills for short-term crypto trading: news verified against 5 reliable sources, opening-range breakout scanner for the London and Wall Street opens, entry timer, exit planner, a time machine that replays the day 10,000 times, risk manager, alerts and paper trading. Never places orders.",
   "version": "1.0.0",
-  "author": { "name": "Jeto (@codegeas1337)" },
+  "author": {
+    "name": "Jeto (@codegeas1337)"
+  },
   "homepage": "https://github.com/spikeich/skill-cryptos-jeto1337",
   "repository": "https://github.com/spikeich/skill-cryptos-jeto1337",
   "license": "MIT",
-  "keywords": ["claude-skills", "crypto", "scalping", "day-trading", "backtesting", "paper-trading"],
+  "keywords": [
+    "claude-skills",
+    "crypto",
+    "bitcoin",
+    "scalping",
+    "day-trading",
+    "backtesting",
+    "paper-trading",
+    "news-verification",
+    "binance"
+  ],
   "skills": "./"
 }
