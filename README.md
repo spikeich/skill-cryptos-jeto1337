@@ -86,6 +86,13 @@ and every check is shown grouped by country. State-controlled media (TASS,
 Xinhua, VNA, Antara...) count as that government's voice, never as independent
 confirmation.
 
+Dates matter too: true is not the same as today. Age counts from the first
+reliable report: **NEW** (under 24 hours, tradeable), **RECENT** (24 to 72
+hours, mostly priced in) or **OLD** (over 72 hours: context, never a reason to
+trade today). A confirmation dated more than 7 days before the others is about
+another event and does not count, and news that resurfaces more than a day
+after the first report is flagged **RECYCLED**. Each outlet counts once.
+
 Why under an hour is never verified: in January 2024 the SEC's X account was
 hacked and announced bitcoin ETF approval. Many outlets repeated it within
 minutes, and the price jumped and fell before the denial.
@@ -107,7 +114,8 @@ project.
 
 **Rule: `/crypto-social-info` always goes first.** Before looking for a
 breakout, check the calendar and the day's news, and verify anything big.
-Verified bad news means favour shorts and cut longs; a big event in the next
+Verified bad news from the last 24 hours means favour shorts and cut longs
+(old news is already priced in); a big event in the next
 hours (CPI, the Fed, a vote, a ruling) means smaller size or wait; doubtful
 news decides nothing until it is verified.
 

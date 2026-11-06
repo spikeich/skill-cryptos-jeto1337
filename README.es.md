@@ -91,6 +91,14 @@ Fuentes confiables: diarios y agencias conocidos, voceros oficiales de los
 países y economistas reconocidos. Los medios cripto y los blogs no cuentan. De
 X solo se toman cuentas con tilde gris o dorado, y nunca como confirmación.
 
+La fecha: que sea verdad no quiere decir que sea de hoy. La edad se cuenta
+desde la primera nota confiable: **NUEVA** (menos de 24 horas, se puede operar),
+**RECIENTE** (24 a 72 horas, buena parte ya está en el precio) o **VIEJA** (más
+de 72 horas: contexto, no una razón para operar). Una confirmación más de 7
+días anterior a las demás habla de otro hecho y no cuenta, y una noticia que
+vuelve a circular más de un día después de la primera nota se marca
+**RECICLADA**. Cada medio cuenta una sola vez.
+
 Por qué una noticia de menos de una hora nunca queda verificada: en enero de
 2024 hackearon la cuenta de la SEC en X y publicaron que aprobaban los ETF de
 bitcoin. Muchos medios lo repitieron en minutos, y el precio saltó y cayó antes
@@ -113,7 +121,8 @@ proyecto.
 
 **Regla: `/crypto-social-info` va siempre primero.** Antes de buscar una
 ruptura, mirá el calendario y las noticias del día, y verificá lo importante.
-Una noticia mala verificada: preferí cortos y achicá los largos. Un evento
+Una noticia mala verificada y nueva (de las últimas 24 horas): preferí cortos y achicá
+los largos; si es vieja, ya está en el precio. Un evento
 grande en las próximas horas (inflación, la Fed, una votación, un fallo): menos
 tamaño o esperar. Una noticia dudosa no decide nada hasta que se verifique.
 
