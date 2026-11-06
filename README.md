@@ -51,33 +51,6 @@ print Spanish, and Claude answers you in whatever language you write in.
 | `/crypto-alerts` | **While the trade is open.** Rings on price levels and follows your plan: entry filled, stop, target, a limit order that never filled, time to get out. Uses 1-minute highs and lows, so a wick between two looks still counts. |
 | `/crypto-scalp` | **Market read and paper trading.** Picks the best coins to scalp right now, sizes a position to your capital and risk, and paper-trades it on live prices with alerts. |
 
-## How they fit together
-
-```
-/crypto-social-info  what's in the news? is it true? what's coming?
-/crypto-scanner      what broke out at the open
-/crypto-entry        the exact moment to get in        -> trader/entry.json
-/crypto-exit         stop, target and flat-by time     -> trader/plan.json
-/crypto-timemachine  does that plan have an edge?
-/crypto-risk         does it fit my limits? size, and the order for Binance
-/crypto-alerts       watch the trade while it is open
-```
-
-Each skill reads what the previous one wrote to the `trader/` folder of your
-project.
-
-## Sessions
-
-Crypto never closes, so "the session" follows the stock markets, which is when
-crypto trades the most volume. Each day is worked out with its own daylight
-saving offsets for London and New York.
-
-| session | opens | UTC (northern winter) |
-| --- | --- | --- |
-| `europa` | 08:00 London | 08:00 |
-| `wallstreet` | 09:30 New York | 14:30 |
-| `europa-wallstreet` | London open to New York close | 08:00-21:00 |
-
 ## What the data showed
 
 From 36 verified social and political events, 2017-2026 (`/crypto-social-info`).
@@ -105,6 +78,33 @@ A small sample chosen by people: hints, not rules.
 Why under an hour is never verified: in January 2024 the SEC's X account was
 hacked and announced bitcoin ETF approval. Many outlets repeated it within
 minutes, and the price jumped and fell before the denial.
+
+## How they fit together
+
+```
+/crypto-social-info  what's in the news? is it true? what's coming?
+/crypto-scanner      what broke out at the open
+/crypto-entry        the exact moment to get in        -> trader/entry.json
+/crypto-exit         stop, target and flat-by time     -> trader/plan.json
+/crypto-timemachine  does that plan have an edge?
+/crypto-risk         does it fit my limits? size, and the order for Binance
+/crypto-alerts       watch the trade while it is open
+```
+
+Each skill reads what the previous one wrote to the `trader/` folder of your
+project.
+
+## Sessions
+
+Crypto never closes, so "the session" follows the stock markets, which is when
+crypto trades the most volume. Each day is worked out with its own daylight
+saving offsets for London and New York.
+
+| session | opens | UTC (northern winter) |
+| --- | --- | --- |
+| `europa` | 08:00 London | 08:00 |
+| `wallstreet` | 09:30 New York | 14:30 |
+| `europa-wallstreet` | London open to New York close | 08:00-21:00 |
 
 ## Credits
 

@@ -31,7 +31,9 @@ cp -r skill-cryptos-jeto1337/crypto-* ~/.claude/skills/
 Para un solo proyecto, copialas en `.claude/skills/` de ese repo.
 
 Necesitan Python 3.8 o más nuevo y salida a internet hacia
-`api.coingecko.com`, `query1.finance.yahoo.com` y `query2.finance.yahoo.com`.
+`api.coingecko.com`, `query1.finance.yahoo.com` y `query2.finance.yahoo.com`
+(y `www.theguardian.com`, `rss.nytimes.com` y `feeds.bbci.co.uk` para las
+noticias).
 
 ## Las skills
 
@@ -45,6 +47,42 @@ Necesitan Python 3.8 o más nuevo y salida a internet hacia
 | `/crypto-social-info` | La **información social y política**: verifica rumores y noticias con 5 fuentes confiables (diarios conocidos, voceros oficiales, economistas; X solo con tilde gris o dorado y nunca como confirmación), mide cómo se movió el precio con prohibiciones, leyes, elecciones, aranceles, adopción y escándalos desde 2017, y arma el calendario de eventos que vienen. |
 | `/crypto-timemachine` | La **máquina del tiempo**: repite 10.000 veces el resto del día con las velas reales de 5 minutos de esa cripto en los últimos 60 días, prueba la regla en cada día pasado y te dice si el plan tiene ventaja o es tirar una moneda. |
 | `/crypto-scalp` | Lee el mercado, elige las mejores criptos para scalping, calcula el tamaño de la posición según tu capital y tu riesgo (con apalancamiento, margen aislado y comisiones de Binance) y simula operaciones en papel con avisos. |
+
+## Lo que mostraron los datos
+
+Con 36 eventos sociales y políticos verificados, de 2017 a 2026
+(`/crypto-social-info`). Son pocos casos y los eligieron personas: sirven de
+pista, no son reglas.
+
+- **Las malas noticias pesan más que las buenas.** Después de una mala
+  noticia, bitcoin bajó durante la semana siguiente en 10 de 12 casos (5 de 5
+  desde 2023). Después de una buena, subió en solo 10 de 21: menos que una
+  semana cualquiera.
+- **Se compra el rumor, se vende la noticia.** Lo que se esperaba hacía meses
+  (aprobación de los ETF, el decreto de la reserva de bitcoin, la salida a
+  bolsa de Coinbase) subió antes y bajó después.
+- **Las sorpresas positivas sí empujan** (Xi Jinping y el blockchain en 2019,
+  Tesla en 2021, la elección de EE.UU. en 2024).
+- **Las prohibiciones dan caídas que en un mes se recuperan.**
+- **Si la noticia nombra una cripto, esa se mueve mucho más** que bitcoin (XRP
+  +73 % el día del fallo a favor de Ripple).
+
+## Cómo se verifican las noticias
+
+| veredicto | cuándo |
+| --- | --- |
+| **VERIFICADA** | un documento oficial la confirma, o 4 de 5 fuentes confiables e independientes confirman los mismos datos (quién, qué, cuándo, cuánto), sin desmentido |
+| **DUDOSA** | 3 de 5, datos que no coinciden, un desmentido de una fuente confiable, o tiene menos de una hora |
+| **FALSA** | desmentido oficial, o 2 de 5 o menos |
+
+Fuentes confiables: diarios y agencias conocidos, voceros oficiales de los
+países y economistas reconocidos. Los medios cripto y los blogs no cuentan. De
+X solo se toman cuentas con tilde gris o dorado, y nunca como confirmación.
+
+Por qué una noticia de menos de una hora nunca queda verificada: en enero de
+2024 hackearon la cuenta de la SEC en X y publicaron que aprobaban los ETF de
+bitcoin. Muchos medios lo repitieron en minutos, y el precio saltó y cayó antes
+del desmentido.
 
 ## Cómo se usan juntas
 
