@@ -40,12 +40,14 @@ Necesitan Python 3.8 o más nuevo y salida a internet hacia
 | `/crypto-exit` | El **plan de salida**: stop, objetivo y hora de salida antes de entrar, con el R neto de comisiones de Binance y el chequeo de liquidación según el apalancamiento. |
 | `/crypto-risk` | El **gestor de riesgo**: revisa el plan contra tus límites (riesgo por operación, apalancamiento, liquidación, pérdidas del día), calcula la cantidad y arma la orden para cargar a mano en Binance. |
 | `/crypto-alerts` | Las **alertas**: avisa cuando un precio pasa un nivel, y sigue tu operación (entrada, stop, objetivo, orden que no se llenó, hora de salir). |
+| `/crypto-social-info` | La **información social y política**: verifica rumores y noticias con 5 fuentes confiables (diarios conocidos, voceros oficiales, economistas; X solo con tilde gris o dorado y nunca como confirmación), mide cómo se movió el precio con prohibiciones, leyes, elecciones, aranceles, adopción y escándalos desde 2017, y arma el calendario de eventos que vienen. |
 | `/crypto-timemachine` | La **máquina del tiempo**: repite 10.000 veces el resto del día con las velas reales de 5 minutos de esa cripto en los últimos 60 días, prueba la regla en cada día pasado y te dice si el plan tiene ventaja o es tirar una moneda. |
 | `/crypto-scalp` | Lee el mercado, elige las mejores criptos para scalping, calcula el tamaño de la posición según tu capital y tu riesgo (con apalancamiento, margen aislado y comisiones de Binance) y simula operaciones en papel con avisos. |
 
 ## Cómo se usan juntas
 
 ```
+/crypto-social-info  ¿qué noticias hay? ¿son verdad? ¿qué se viene?
 /crypto-scanner      qué rompió en la apertura
 /crypto-entry        el momento exacto de entrar      -> trader/entry.json
 /crypto-exit         stop, objetivo y hora de salida  -> trader/plan.json
