@@ -99,6 +99,26 @@ días anterior a las demás habla de otro hecho y no cuenta, y una noticia que
 vuelve a circular más de un día después de la primera nota se marca
 **RECICLADA**. Cada medio cuenta una sola vez.
 
+Tres controles más:
+
+- **Fuentes anónimas** ("según fuentes cercanas") cuentan todas juntas como una
+  sola confirmación: cinco diarios que citan a "una persona al tanto" pueden
+  estar citando a la misma persona.
+- **Prueba en la blockchain.** Los hackeos, las ballenas y las ventas de un
+  gobierno se ven en la cadena. `--onchain "btc|TXID|4259"` lee la transacción
+  en mempool.space (Bitcoin) o eth.blockscout.com (Ethereum): el monto correcto
+  en la cadena más 2 diarios independientes que digan de quién es queda
+  verificada; una transacción que no existe es falsa. La cadena prueba que se
+  movió la plata, nunca de quién es la dirección.
+- **¿Ya está en el precio?** `--dir -` (noticia mala) o `--dir +` mide cuánto se
+  movió la cripto desde la primera nota contra lo normal. Dos veces lo normal o
+  más a favor de la noticia: no persigas el movimiento.
+
+`chain` suma el estado de la red a la revisión del mercado: las comisiones de
+Bitcoin contra los últimos 15 bloques, el mempool, cada movimiento de 1.000 BTC
+o más en los últimos 6 bloques y el gas de Ethereum. Es contexto, no una señal:
+un movimiento grande no es una venta.
+
 Por qué una noticia de menos de una hora nunca queda verificada: en enero de
 2024 hackearon la cuenta de la SEC en X y publicaron que aprobaban los ETF de
 bitcoin. Muchos medios lo repitieron en minutos, y el precio saltó y cayó antes

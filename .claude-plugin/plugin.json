@@ -1,6 +1,6 @@
 {
   "name": "skill-cryptos-jeto1337",
-  "description": "Eight Claude skills for short-term crypto trading: news verified against 5 reliable sources, opening-range breakout scanner for the London and Wall Street opens, entry timer, exit planner, a time machine that replays the day 10,000 times, risk manager, alerts and paper trading. Never places orders.",
+  "description": "Eight Claude skills for short-term crypto trading: news verified against 5 reliable sources and the blockchain, opening-range breakout scanner for the London and Wall Street opens, entry timer, exit planner, a time machine that replays the day 10,000 times, risk manager, alerts and paper trading. Never places orders.",
   "version": "1.0.0",
   "author": {
     "name": "Jeto (@codegeas1337)"
@@ -17,6 +17,8 @@
     "backtesting",
     "paper-trading",
     "news-verification",
+    "on-chain",
+    "mempool",
     "binance"
   ],
   "skills": "./"

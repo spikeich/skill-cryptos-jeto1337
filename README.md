@@ -93,6 +93,26 @@ trade today). A confirmation dated more than 7 days before the others is about
 another event and does not count, and news that resurfaces more than a day
 after the first report is flagged **RECYCLED**. Each outlet counts once.
 
+Three more checks:
+
+- **Anonymous sources** ("people familiar with the matter") all count together
+  as one confirmation: five outlets quoting "a person close to the matter" may
+  be quoting the same person.
+- **On-chain proof.** Hacks, whale moves and government sales show up on the
+  chain. `--onchain "btc|TXID|4259"` reads the transaction from mempool.space
+  (Bitcoin) or eth.blockscout.com (Ethereum): the right amount on the chain
+  plus 2 independent newspapers saying whose it is is verified; a transaction
+  that does not exist is false. The chain proves the money moved, never who
+  owns the address.
+- **Already priced in?** `--dir -` (bad news) or `--dir +` measures how far
+  the coin moved since the first report against its normal move. Twice the
+  normal move or more in the direction of the news: don't chase it.
+
+`chain` adds the state of the network to the market review: Bitcoin fees
+against the last 15 blocks, the mempool, every move of 1,000 BTC or more in the
+last 6 blocks, and Ethereum gas. Context, not a signal: a big transfer is not
+a sale.
+
 Why under an hour is never verified: in January 2024 the SEC's X account was
 hacked and announced bitcoin ETF approval. Many outlets repeated it within
 minutes, and the price jumped and fell before the denial.
