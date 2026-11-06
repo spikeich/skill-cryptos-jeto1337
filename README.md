@@ -36,6 +36,8 @@ Necesitan Python 3.8 o más nuevo y salida a internet hacia
 | comando | qué hace |
 | --- | --- |
 | `/crypto-scanner` | Qué cripto rompe el rango de apertura de **Europa** o de **Wall Street**, para arriba o para abajo, y los setups del gráfico diario (rupturas de 20 días, banderas, media de 20, sobreventa y sobrecompra). |
+| `/crypto-entry` | El **temporizador de entrada**: vigila vela por vela y avisa el momento exacto en que una cripto cierra afuera del rango de apertura (o de un nivel), en largo o en corto. |
+| `/crypto-exit` | El **plan de salida**: stop, objetivo y hora de salida antes de entrar, con el R neto de comisiones de Binance y el chequeo de liquidación según el apalancamiento. |
 | `/crypto-timemachine` | La **máquina del tiempo**: repite 10.000 veces el resto del día con las velas reales de 5 minutos de esa cripto en los últimos 60 días, prueba la regla en cada día pasado y te dice si el plan tiene ventaja o es tirar una moneda. |
 | `/crypto-scalp` | Lee el mercado, elige las mejores criptos para scalping, calcula el tamaño de la posición según tu capital y tu riesgo (con apalancamiento, margen aislado y comisiones de Binance) y simula operaciones en papel con avisos. |
 
@@ -43,9 +45,14 @@ Necesitan Python 3.8 o más nuevo y salida a internet hacia
 
 ```
 /crypto-scanner      qué rompió en la apertura
-/crypto-timemachine  ¿esa ruptura tiene ventaja?
+/crypto-entry        el momento exacto de entrar      -> trader/entry.json
+/crypto-exit         stop, objetivo y hora de salida  -> trader/plan.json
+/crypto-timemachine  ¿ese plan tiene ventaja?
 /crypto-scalp        cuánto abrir, y simularla antes de hacerla de verdad
 ```
+
+Cada skill lee lo que escribió la anterior en la carpeta `trader/` de tu
+proyecto.
 
 ## Sesiones
 
@@ -61,8 +68,9 @@ horario de verano o de invierno.
 
 ## Créditos
 
-`crypto-scanner` y `crypto-timemachine` son adaptaciones a cripto de
-`trader-scanner` y `trader-timemachine` del repo
+`crypto-scanner`, `crypto-entry`, `crypto-exit` y `crypto-timemachine` son
+adaptaciones a cripto de `trader-scanner`, `trader-entry`, `trader-exit` y
+`trader-timemachine` del repo
 [Jakeschincariol/day-trader-skill](https://github.com/Jakeschincariol/day-trader-skill),
 con licencia MIT. Su aviso de copyright está en `LICENSE-day-trader-skill`.
 
